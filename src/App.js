@@ -10,7 +10,16 @@ function App() {
           <Dictionary />
         </main>
       </div>
-      <footer className="App-footer">Coded by Aleksandra Rudyak</footer>
+      <footer className="App-footer">
+        Coded by Aleksandra Rudyak, OpenSource available on{" "}
+        <a
+          href="https://github.com/AleksRu21/dictionary-project"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
+        </a>
+      </footer>
     </div>
   );
 }
