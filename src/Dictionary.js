@@ -13,7 +13,6 @@ export default function Dictionary() {
     event.preventDefault();
 
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/sunset${keyWord}`;
-    console.log(apiUrl);
     axios.get(apiUrl).then(handleResponse);
   }
 
