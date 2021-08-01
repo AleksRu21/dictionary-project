@@ -5,12 +5,12 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">Logo</header>
+        <header className="App-header">Dictionary</header>
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Aleksandra Rudyak</footer>
       </div>
+      <footer className="App-footer">Coded by Aleksandra Rudyak</footer>
     </div>
   );
 }
